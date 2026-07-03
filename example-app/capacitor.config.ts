@@ -4,7 +4,7 @@ import pkg from './package.json';
 
 const config: CapacitorConfig = {
   appId: 'app.capgo.stripe.identity',
-  appName: 'Stripe Identity Example',
+  appName: '@capgo/capacitor-stripe-identity',
   webDir: 'dist',
   plugins: {
     SplashScreen: {
