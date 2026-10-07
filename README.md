@@ -1,25 +1,36 @@
 # @capgo/capacitor-stripe-identity
 
-<a href="https://capgo.app/"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-stripe-identity" alt="Capgo - Instant updates for Capacitor" /></a>
+Verify your users' identity with Stripe Identity document and selfie checks in your Capacitor app, using Stripe's native verification sheet.
+
+<a href="https://capgo.app/?ref=plugin_stripe_identity"><img src="https://capgo.app/readme-banner.svg?repo=Cap-go/capacitor-stripe-identity" alt="Capgo - Instant updates for Capacitor" /></a>
 
 <div align="center">
-  <h2>
-    <a href="https://capgo.app/?ref=plugin_stripe_identity"> ➡️ Get Instant updates for your App with Capgo</a>
-  </h2>
-  <h2>
-    <a href="https://capgo.app/consulting/?ref=plugin_stripe_identity"> Missing a feature? We'll build the plugin for you 💪</a>
-  </h2>
+  <p><b>Capgo</b>: open-source live updates for Ionic and Capacitor apps. Ship OTA fixes and features instantly, without waiting for app store review.</p>
+  <h2><a href="https://capgo.app/register/?ref=plugin_stripe_identity">➡️ Get started for free</a></h2>
+  <p>14-day unlimited free trial. No credit card required</p>
+  <p><a href="https://capgo.app/consulting/?ref=plugin_stripe_identity">Missing a feature? We'll build the plugin for you 💪</a></p>
 </div>
 
-Capacitor plugin for Stripe Identity — verify users with document and selfie checks using Stripe's native verification sheet on iOS and Android.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Cap-go/capacitor-stripe-identity/main/.github/assets/readme-hero.webp" alt="@capgo/capacitor-stripe-identity for Capacitor apps" width="300" />
+</p>
+
+## Key features
+
+- **Setup**: `initialize()` with your Stripe publishable key.
+- **Create**: `create()` prepares the sheet with your verification session ID and ephemeral key secret.
+- **Present**: `present()` shows Stripe's document and selfie verification flow.
+- **Result events**: loaded, failed to load, completed, canceled and failed listeners.
+- **Native SDKs**: Stripe Identity for iOS and Android.
+- **Platforms**: iOS, Android and Web. Web uses Stripe.js `verifyIdentity()` with a client secret.
 
 ## Why this plugin
 
-This plugin is a maintained fork of [@capacitor-community/stripe](https://github.com/capacitor-community/stripe). Capgo split the community project into focused packages — each with its own docs, example app, and CI.
+This plugin is a maintained fork of [@capacitor-community/stripe](https://github.com/capacitor-community/stripe). Capgo split the community project into focused packages, each with its own docs, example app, and CI.
 
 We track open issues and pull requests in the community repository, merge relevant fixes into our repos, and ship them on current Stripe SDKs. Our goal is to be more reactive than the community maintainers when bugs land or platforms change.
 
-This package covers **Stripe Identity** — document and selfie verification.
+This package covers **Stripe Identity**, document and selfie verification.
 
 If you use the community package today, this is the maintained upgrade path from the community package.
 
