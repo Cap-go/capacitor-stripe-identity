@@ -17,7 +17,7 @@ Verify your users' identity with Stripe Identity document and selfie checks in y
 
 ## Key features
 
-- **Setup**: `initialize()` takes your publishable key on web. On iOS and Android it resolves without using a key.
+- **Setup**: call `initialize({ publishableKey })` on every platform. Web loads Stripe.js with the key, while iOS and Android accept it but do not use it.
 - **Create**: `create()` prepares the sheet with your verification session ID and ephemeral key secret.
 - **Present**: `present()` shows Stripe's document and selfie verification flow.
 - **Listener events**: loaded, failed to load and verification result. The result is completed, canceled or failed.
